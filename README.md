@@ -18,7 +18,7 @@ Data analytics project integrating Pokémon statistics, PokéAPI data, and tradi
 ## Project Files
 
 - 📓 [Download Jupyter Notebook](Pokemon_Market_Analytics_SQL.ipynb)
-- 🌐 [View HTML Notebook Export](Pokemon_Market_Analytics_SQL.html)
+- 🌐 [View HTML Notebook Export](https://htmlpreview.github.io/?https://github.com/stephfn/pokemon-market-analytics/blob/main/Pokemon_Market_Analytics_SQL.html)
 
 ## Project Overview
 
