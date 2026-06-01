@@ -15,6 +15,10 @@ Data analytics project integrating Pokémon statistics, PokéAPI data, and tradi
 - Data Visualization
 - Analytical Reporting
 
+## Project Files
+
+📓 [View Full Jupyter Notebook](Pokemon_Market_Analytics_SQL.ipynb)
+
 ## Project Overview
 
 This project combines Pokémon game statistics, PokéAPI attributes, and Pokémon trading card marketplace pricing data into a unified analytical database. Data from multiple sources were cleaned, standardized, integrated using SQL joins, and analyzed through visualizations to explore factors associated with Pokémon card values.
