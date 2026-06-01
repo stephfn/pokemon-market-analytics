@@ -30,6 +30,30 @@ The project demonstrates an end-to-end data analytics workflow including:
 
 ---
 
+## Project Visualizations
+
+The following visualizations were generated from the final integrated SQLite dataset and highlight key relationships between Pokémon characteristics and marketplace pricing.
+
+### Average Pokémon Card Price by Pokémon Type
+
+![Average Price by Type](images/avg_price_by_type.png)
+
+**Key Finding:** Pokémon card rarity appeared to have a stronger influence on market value than Pokémon type alone.
+
+### Total Pokémon Stats vs Card Price
+
+![Stats vs Price](images/stats_vs_price.png)
+
+**Key Finding:** Total battle statistics showed only a weak relationship with marketplace pricing, suggesting collectibility factors drive value more than competitive strength.
+
+### Average Pokémon Card Price by Seller Country
+
+![Seller Country Pricing](images/seller_country_pricing.png)
+
+**Key Finding:** Average card prices varied across seller regions, indicating differences in market demand, availability, and pricing behavior.
+
+---
+
 ## Objectives
 
 The primary goals of this project were to:
