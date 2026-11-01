@@ -22,8 +22,9 @@ Data analytics project integrating Pokémon statistics, PokéAPI data, and tradi
 
 ## Project Overview
 
-This project combines Pokémon game statistics, PokéAPI attributes, and Pokémon trading card marketplace pricing data into a unified analytical database. Data from multiple sources were cleaned, standardized, integrated using SQL joins, and analyzed through visualizations to explore factors associated with Pokémon card values.
+This project explores Pokémon trading card pricing by integrating game statistics, PokéAPI attributes, and marketplace data using Python and SQLite. The analysis demonstrates data cleaning, API retrieval, SQL joins, and exploratory visualization.
 
+The final integrated dataset contained 60 records and nine variables. The findings are exploratory and describe associations within the available records rather than establishing the causes of card prices.
 The project demonstrates an end-to-end data analytics workflow including:
 
 - Data acquisition
@@ -127,15 +128,21 @@ This integration created a consolidated analytical dataset combining:
 - Marketplace pricing information
 
 ---
-
 ## Key Findings
 
-- Pokémon card rarity appeared to have a stronger relationship with market value than battle statistics.
-- Card condition and grading status appeared to substantially influence marketplace pricing.
-- Marketplace values varied across seller regions.
-- SQL joins successfully integrated three independent datasets into a unified analytical database.
-- Data cleaning and standardization were critical for maintaining consistency across sources.
+- SQL INNER JOIN operations integrated Pokémon game statistics, API attributes, and trading card marketplace data.
+- Average card prices differed across Pokémon types and rarity classifications in the analyzed dataset.
+- The scatterplot suggested a weak positive relationship between total battle statistics and card price, with substantial variability.
+- Average listing prices varied across seller countries, although these differences do not independently demonstrate geographic differences in demand.
+- The dataset was limited in size and coverage, so the findings should be interpreted as exploratory rather than representative of the wider trading card market.
 
+## Reproducibility and Limitations
+
+The notebook uses live data retrieval from PokémonDB and PokéAPI alongside local CSV files, including `pokemon.csv` and `pokemon_cards_ultimate_2026.csv`. These CSV files are not currently included in the repository, so the full notebook cannot be reproduced from the repository alone.
+
+The integrated dataset contains 60 records, and SQL INNER JOIN operations exclude records without matching Pokémon names across all three sources. Name-based matching may also be affected by alternate forms or naming differences.
+
+Marketplace prices may depend on card edition, rarity, grading, condition, and other factors not fully controlled in this exploratory analysis. The visualizations should not be interpreted as evidence of causal relationships.
 ---
 
 ## Future Improvements
