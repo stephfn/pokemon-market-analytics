@@ -155,6 +155,16 @@ Marketplace prices may depend on card edition, rarity, grading, condition, and o
 
 ---
 
+### Reproducibility Note
+
+This repository preserves a completed exploratory data analysis project, including the original Jupyter notebook, HTML export, SQL integration workflow, and generated visualizations.
+
+Two source CSV files used in the original analysis are no longer available. Consequently, the complete notebook cannot currently be rerun from beginning to end. The published notebook and HTML export document the original methodology and results.
+
+The project is retained as a demonstration of data cleaning, API integration, relational database operations, and exploratory analysis rather than as a fully reproducible analytical pipeline.
+
+---
+
 ## Author
 
 Stephanie Nord
